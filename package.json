@@ -1,0 +1,19 @@
+{
+  "name": "paulvigneron_3_23092021",
+  "version": "1.0.0",
+  "description": "PaulVigneron_3_23092021",
+  "main": "index.js",
+  "scripts": {
+    "sass":"sass --watch ./main.scss:./style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wodenp98/PaulVigneron_3_23092021.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wodenp98/PaulVigneron_3_23092021/issues"
+  },
+  "homepage": "https://github.com/wodenp98/PaulVigneron_3_23092021#readme"
+}

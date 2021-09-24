@@ -20,80 +20,57 @@
 </head>
 <body>
 
-    <header class="header">
+    <header>
+        <img src="./images/logo/ohmyfood@2x.svg" alt="logo">
+    </header>
 
-        <div class="header-title">
-            <h1>Ohmyfood</h1> <!-- Logo -->
-        </div>
+<main>
+    <section>
+    <div class="localisation">
+        <form action="#" method="POST">
+            <i class="fas fa-map-marker-alt"></i>
+            <input type="search" name="city" class="localisation__form" value="Paris, Belleville">
+        </form>
+    </div>
 
-        <div class="header-subtitle">
-            <h2><i class="fas fa-map-marker-alt"></i> Paris, Belleville</h2> <!-- Faire un formulaire -->
-        </div>
 
-        <div class="header-main">
+        <div class="presentation">
             <h2>Réservez le menu qui vous convient</h2>
-            <h3>Découvrez des restaurants d'exception, séléctionnés par nos soins.</h3>
-    
-            <div>
-                <a href="#mainAncre">Explorer nos restaurants</a> <!-- Bouton -->
-            </div>
+            <p>Découvrez des restaurants d'exception, séléctionnés par nos soins.</p>
+            <button type="button">Explorer nos restaurants</button>            
         </div>
 
-        <div class="header-container">
-
-            <h3>Fonctionnement</h3>
-
-            <div class="header-container-choices">
-
-                <div class="header-choice"></div> <!-- OL ?-->
-                    <p>1</p>
+        <div class="operation">
+            <h2>Fonctionnement</h2>
+            <div class="operation__list">
+                <div class="operation__option"></div>
+                    <div class="operation__number">1</div>
                     <i class="fas fa-mobile-alt"></i>
                     <p>Choisissez un restaurant</p>
                 </div>
 
-                <div class="header-choice">
-                    <p>2</p>
+                <div class="operation__option">
+                    <div class="operation__number">2</div>
                     <i class="fas fa-list-ul"></i>
                     <p>Composez votre menu</p>
                 </div>
 
-                <div class="header-choice">
-                    <p>3</p>
+                <div class="operation__option">
+                    <div class="operation__number">3</div>
                     <i class="fas fa-store"></i>
                     <p>Dégustez au restaurant</p>
                 </div>
             </div>
        </div>
 
-    </header>
+
+    </section>
 
 
-</body>
+    <section class="restaurant-list">
+        <h2 class="restaurant-list__h2">Restaurants</h2>
 
-<main class="main" id="mainAncre">
-    <h2>Restaurants</h2>
-
-    <div class="main-container">
-
-        <div class="card">
-            <a href="./html/la-palette-du-gout.html">
-                <div class="card-img">
-                    <img src="./images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg" alt="La palette du goût" />
-                    <span class="card-new">Nouveau</span>
-                </div>
-                <div class="card-text">
-                    <div class="card-title">
-                        <h4>La palette du goût</h4>
-                        <p>Ménilmontant</p>
-                    </div>
-                    <div class="card-icon">
-                        <i class="far fa-heart"></i>
-                    </div>
-                </div>
-            </a>
-        </div>
-    </div>
-
-    
+</section>
 </main>
+</body>
 </html>

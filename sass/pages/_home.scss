@@ -2,7 +2,7 @@
   background-color: #f6f6f6;
   padding-bottom: 50px;
   &__h2 {
-    padding: 40px 0 0 20px;
+    padding: 40px 0 10px 20px;
     font-weight: bold;
     font-size: 1.5rem;
   }
@@ -23,11 +23,11 @@
 
 .restaurant__list__title {
   h4 {
-    padding: 10px 0 0px 10px;
+    padding: 15px 0 8px 10px;
     font-weight: bold;
   }
   p {
-    padding: 0 0 10px 10px;
+    padding: 0 0 20px 10px;
   }
 }
 
@@ -50,6 +50,7 @@
 
 .restaurant__list__heart {
   position: absolute;
-  right: 5px;
+  right: 30px;
   bottom: 20px;
+  height: 30px;
 }

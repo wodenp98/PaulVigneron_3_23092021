@@ -291,7 +291,7 @@ button:hover {
 }
 
 .restaurant__h2 {
-  padding: 40px 0 0 20px;
+  padding: 40px 0 10px 20px;
   font-weight: bold;
   font-size: 1.5rem;
 }
@@ -314,12 +314,12 @@ button:hover {
 }
 
 .restaurant__list__title h4 {
-  padding: 10px 0 0px 10px;
+  padding: 15px 0 8px 10px;
   font-weight: bold;
 }
 
 .restaurant__list__title p {
-  padding: 0 0 10px 10px;
+  padding: 0 0 20px 10px;
 }
 
 .restaurant__list__new {
@@ -341,8 +341,9 @@ button:hover {
 
 .restaurant__list__heart {
   position: absolute;
-  right: 5px;
+  right: 30px;
   bottom: 20px;
+  height: 30px;
 }
 
 footer {
@@ -361,15 +362,15 @@ footer .footer__list a {
 }
 
 footer .footer__list ul {
-  padding: 20px 0 20px 20px;
+  padding: 20px 0 30px 20px;
 }
 
 footer .footer__list ul li {
-  padding: 7px;
+  margin-bottom: 10px;
 }
 
-.fa-utensils,
-.fa-hands-helping {
-  padding-right: 10px;
+footer .footer__list ul i {
+  margin-right: 15px;
+  width: 15px;
 }
 /*# sourceMappingURL=main.css.map */

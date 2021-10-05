@@ -1,0 +1,23 @@
+footer {
+  background-color: #353535;
+  color: white;
+  .footer__logo {
+    font-family: "Shrikhand";
+    padding: 20px 0 0 20px;
+    font-size: 1.2rem;
+  }
+  .footer__list a {
+    color: white;
+  }
+  .footer__list ul {
+    padding: 20px 0 20px 20px;
+    li {
+      padding: 7px;
+    }
+  }
+}
+
+.fa-utensils,
+.fa-hands-helping {
+  padding-right: 10px;
+}

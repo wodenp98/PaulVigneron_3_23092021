@@ -26,8 +26,9 @@
     }
   }
   &__list__number {
-    color: white;
+    color: $color-bgfnt;
     background-color: $color-primary;
+    font-size: 0.8rem;
     border-radius: 50%;
     position: absolute;
     left: 10px;

@@ -1,5 +1,5 @@
 .restaurant {
-  background-color: #f6f6f6;
+  background-color: $color-container;
   padding-bottom: 50px;
   &__h2 {
     padding: 40px 0 10px 20px;
@@ -8,7 +8,7 @@
   }
   article {
     border-radius: 20px;
-    background-color: white;
+    background-color: $color-bgfnt;
     margin: 15px;
     @include shadow;
     position: relative;
@@ -34,7 +34,7 @@
 .restaurant__list__new {
   position: absolute;
   background-color: $color-tertiary;
-  color: #0a8d6d;
+  color: $color-fntnew;
   top: 15px;
   right: 10px;
   height: 30px;

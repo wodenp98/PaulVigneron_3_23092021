@@ -1,13 +1,13 @@
 footer {
-  background-color: #353535;
-  color: white;
+  background-color: $color-footer;
+  color: $color-bgfnt;
   .footer__logo {
     font-family: "Shrikhand";
     padding: 20px 0 0 20px;
     font-size: 1.2rem;
   }
   .footer__list a {
-    color: white;
+    color: $color-bgfnt;
   }
   .footer__list ul {
     padding: 20px 0 30px 20px;

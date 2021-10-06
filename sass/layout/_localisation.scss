@@ -1,5 +1,5 @@
 .localisation {
-  background-color: #eaeaea;
+  background-color: $color-localisation;
   display: flex;
   justify-content: center;
   padding: 15px 0 15px 0;
@@ -12,7 +12,7 @@
   }
   &__form {
     border: none;
-    background-color: #eaeaea;
+    background-color: $color-localisation;
     font-size: 1em;
     font-weight: bold;
     text-align: center;

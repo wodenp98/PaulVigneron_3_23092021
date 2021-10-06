@@ -3,7 +3,7 @@ button {
   padding: 15px;
   border: none;
   background: linear-gradient($color-secondary, $color-primary);
-  color: white;
+  color: $color-bgfnt;
   font-weight: bold;
   @include shadow;
   &:hover {

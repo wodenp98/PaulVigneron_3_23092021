@@ -160,6 +160,13 @@ header .header__logo {
   padding: 10px;
 }
 
+header .fa-arrow-left {
+  position: absolute;
+  top: 2%;
+  left: 2%;
+  font-size: 1.2rem;
+}
+
 .localisation {
   background-color: #eaeaea;
   display: -webkit-box;
@@ -218,17 +225,10 @@ button {
   font-weight: bold;
   -webkit-box-shadow: 5px 5px 10px #d4d4d4;
           box-shadow: 5px 5px 10px #d4d4d4;
-  -webkit-transform: scale(1);
-          transform: scale(1);
-  -webkit-transition: -webkit-transform 300ms;
-  transition: -webkit-transform 300ms;
-  transition: transform 300ms;
-  transition: transform 300ms, -webkit-transform 300ms;
 }
 
 button:hover {
-  -webkit-transform: scale(1.15);
-          transform: scale(1.15);
+  opacity: 0.8;
 }
 
 .operation {
@@ -371,5 +371,94 @@ footer .footer__list ul li {
 footer .footer__list ul i {
   margin-right: 15px;
   width: 15px;
+}
+
+.menu__img {
+  width: 100%;
+  max-height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.menu__container {
+  background-color: #f6f6f6;
+  border-radius: 30px 30px 0 0;
+  position: relative;
+  bottom: 30px;
+  margin-bottom: -40px;
+}
+
+.menu__container__title {
+  font-size: 1.7rem;
+  padding: 30px 30px 20px 20px;
+}
+
+.menu__container__title__heart {
+  position: absolute;
+  top: 30px;
+  right: 40px;
+}
+
+.menu__container h3 {
+  text-transform: uppercase;
+  margin: 30px 20px 10px 20px;
+}
+
+.menu__container .border {
+  background-color: #99e2d0;
+  width: 40px;
+  height: 0.2rem;
+  margin-bottom: 15px;
+  margin-left: 20px;
+}
+
+.menu__card__part {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+  border-radius: 20px;
+  background-color: white;
+  width: 95%;
+  margin-bottom: 15px;
+  margin-left: 10px;
+  -webkit-box-shadow: 5px 5px 10px #d4d4d4;
+          box-shadow: 5px 5px 10px #d4d4d4;
+}
+
+.menu__card__part__dishes__name {
+  font-size: 1.1rem;
+  padding: 15px 0 5px 15px;
+  font-weight: bold;
+}
+
+.menu__card__part__dishes__details {
+  padding: 5px 0 10px 15px;
+  font-size: 0.9rem;
+}
+
+.menu__card__part__more {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  top: 40px;
+  right: 10px;
+}
+
+.menu__card__part__more__price {
+  font-weight: bold;
+}
+
+.menu__card__btn {
+  text-align: center;
+  padding: 25px 10px 40px 0;
+}
+
+.menu__card__btn__order {
+  width: 150px;
 }
 /*# sourceMappingURL=main.css.map */

@@ -1,0 +1,76 @@
+.menu__img {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+}
+.menu__container {
+  background-color: #f6f6f6;
+  border-radius: 30px 30px 0 0;
+  position: relative;
+  bottom: 30px;
+  margin-bottom: -40px;
+  &__title {
+    font-size: 1.7rem;
+    padding: 30px 30px 20px 20px;
+
+    &__heart {
+      position: absolute;
+      top: 30px;
+      right: 40px;
+    }
+  }
+
+  h3 {
+    text-transform: uppercase;
+    margin: 30px 20px 10px 20px;
+  }
+  .border {
+    background-color: $color-tertiary;
+    width: 40px;
+    height: 0.2rem;
+    margin-bottom: 15px;
+    margin-left: 20px;
+  }
+}
+
+.menu__card__part {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  border-radius: 20px;
+  background-color: white;
+  width: 95%;
+  margin-bottom: 15px;
+  margin-left: 10px;
+  @include shadow;
+  &__dishes {
+    // Ancitiper le fait que la phrase de reviendra pas a la ligne et les 3 petits points + checkbox
+    &__name {
+      font-size: 1.1rem;
+      padding: 15px 0 5px 15px;
+      font-weight: bold;
+    }
+    &__details {
+      padding: 5px 0 10px 15px;
+      font-size: 0.9rem;
+    }
+  }
+
+  &__more {
+    display: flex;
+    position: absolute;
+    top: 40px;
+    right: 10px;
+    &__price {
+      font-weight: bold;
+    }
+  }
+}
+
+.menu__card__btn {
+  text-align: center;
+  padding: 25px 10px 40px 0;
+  &__order {
+    width: 150px;
+  }
+}

@@ -6,9 +6,7 @@ button {
   color: white;
   font-weight: bold;
   @include shadow;
-  transform: scale(1);
-  transition: transform 300ms;
   &:hover {
-    transform: scale(1.15);
+    opacity: 0.8;
   }
 }

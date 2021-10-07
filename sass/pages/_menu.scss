@@ -2,6 +2,9 @@
   width: 100%;
   max-height: 200px;
   object-fit: cover;
+  @media screen and (min-width: 1024px) {
+    max-height: 300px;
+  }
 }
 .menu__container {
   background-color: $color-container;
@@ -12,6 +15,10 @@
   &__title {
     font-size: 1.7rem;
     padding: 30px 30px 20px 20px;
+    @media screen and (min-width: 1024px) {
+      text-align: center;
+      font-size: 2.2rem;
+    }
 
     &__heart {
       position: absolute;
@@ -43,6 +50,9 @@
   margin-bottom: 15px;
   margin-left: 10px;
   @include shadow;
+  @media screen and (min-width: 1024px) {
+    width: 30%;
+  }
   &__dishes {
     // Ancitiper le fait que la phrase de reviendra pas a la ligne et les 3 petits points + checkbox
     &__name {
@@ -72,5 +82,15 @@
   padding: 25px 10px 40px 0;
   &__order {
     width: 150px;
+    @media screen and (min-width: 1024px) {
+      width: 225px;
+    }
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .menu__card {
+    display: flex;
+    justify-content: space-evenly;
   }
 }

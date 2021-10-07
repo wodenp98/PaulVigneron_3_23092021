@@ -173,6 +173,13 @@ header .fa-arrow-left {
   font-size: 1.2rem;
 }
 
+@media screen and (min-width: 1024px) {
+  header .fa-arrow-left {
+    font-size: 2rem;
+    margin-top: 10px;
+  }
+}
+
 .localisation {
   background-color: #eaeaea;
   display: -webkit-box;
@@ -328,6 +335,18 @@ button:hover {
   padding-bottom: 50px;
 }
 
+@media screen and (min-width: 1024px) {
+  .restaurant {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
+
 .restaurant__h2 {
   padding: 40px 0 10px 20px;
   font-weight: bold;
@@ -336,12 +355,12 @@ button:hover {
 
 @media screen and (min-width: 1024px) {
   .restaurant__h2 {
-    text-align: center;
-    font-size: 1.8rem;
+    margin-top: 6%;
+    font-size: 1.5rem;
   }
 }
 
-.restaurant article {
+.restaurant__list {
   border-radius: 20px;
   background-color: white;
   margin: 15px;
@@ -350,7 +369,13 @@ button:hover {
   position: relative;
 }
 
-.restaurant article img {
+@media screen and (min-width: 1024px) {
+  .restaurant__list {
+    width: 35%;
+  }
+}
+
+.restaurant__list img {
   max-height: 175px;
   width: 100%;
   -o-object-fit: cover;
@@ -389,19 +414,6 @@ button:hover {
   right: 30px;
   bottom: 20px;
   height: 30px;
-}
-
-@media screen and (min-width: 1024px) {
-  .restaurant__list {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    width: 20%;
-  }
 }
 
 footer {
@@ -456,6 +468,12 @@ footer .footer__list ul i {
      object-fit: cover;
 }
 
+@media screen and (min-width: 1024px) {
+  .menu__img {
+    max-height: 300px;
+  }
+}
+
 .menu__container {
   background-color: #f6f6f6;
   border-radius: 30px 30px 0 0;
@@ -467,6 +485,13 @@ footer .footer__list ul i {
 .menu__container__title {
   font-size: 1.7rem;
   padding: 30px 30px 20px 20px;
+}
+
+@media screen and (min-width: 1024px) {
+  .menu__container__title {
+    text-align: center;
+    font-size: 2.2rem;
+  }
 }
 
 .menu__container__title__heart {
@@ -505,6 +530,12 @@ footer .footer__list ul i {
           box-shadow: 5px 5px 10px #d4d4d4;
 }
 
+@media screen and (min-width: 1024px) {
+  .menu__card__part {
+    width: 30%;
+  }
+}
+
 .menu__card__part__dishes__name {
   font-size: 1.1rem;
   padding: 15px 0 5px 15px;
@@ -536,5 +567,22 @@ footer .footer__list ul i {
 
 .menu__card__btn__order {
   width: 150px;
+}
+
+@media screen and (min-width: 1024px) {
+  .menu__card__btn__order {
+    width: 225px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .menu__card {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
 }
 /*# sourceMappingURL=main.css.map */

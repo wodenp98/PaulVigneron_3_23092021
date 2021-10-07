@@ -1,10 +1,15 @@
 .restaurant {
   background-color: $color-container;
   padding-bottom: 50px;
+
   &__h2 {
     padding: 40px 0 10px 20px;
     font-weight: bold;
     font-size: 1.5rem;
+    @media screen and (min-width: 1024px) {
+      text-align: center;
+      font-size: 1.8rem;
+    }
   }
   article {
     border-radius: 20px;
@@ -53,4 +58,12 @@
   right: 30px;
   bottom: 20px;
   height: 30px;
+}
+
+@media screen and (min-width: 1024px) {
+  .restaurant__list {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+  }
 }

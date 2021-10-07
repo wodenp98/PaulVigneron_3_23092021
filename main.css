@@ -160,6 +160,12 @@ header .header__logo {
   padding: 10px;
 }
 
+@media screen and (min-width: 1024px) {
+  header .header__logo {
+    width: 300px;
+  }
+}
+
 header .fa-arrow-left {
   position: absolute;
   top: 2%;
@@ -243,7 +249,21 @@ button:hover {
   font-size: 1.3rem;
 }
 
+@media screen and (min-width: 1024px) {
+  .operation h2 {
+    text-align: center;
+    padding: 20px 0 5px 0;
+    font-size: 1.5rem;
+  }
+}
+
 .operation__list__option {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   border-radius: 20px;
   margin: 20px;
   padding: 30px;
@@ -271,6 +291,7 @@ button:hover {
 }
 
 .operation__list__number {
+  font-size: 0.9rem;
   color: white;
   background-color: #9356dc;
   border-radius: 50%;
@@ -284,6 +305,24 @@ button:hover {
   padding: 0 25px 0 15px;
 }
 
+@media screen and (min-width: 1024px) {
+  .operation__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .operation__list__option {
+    width: 30%;
+  }
+  .operation__list__number {
+    position: static;
+    -webkit-transform: translate(-40px);
+            transform: translate(-40px);
+  }
+}
+
 .restaurant {
   background-color: #f6f6f6;
   padding-bottom: 50px;
@@ -293,6 +332,13 @@ button:hover {
   padding: 40px 0 10px 20px;
   font-weight: bold;
   font-size: 1.5rem;
+}
+
+@media screen and (min-width: 1024px) {
+  .restaurant__h2 {
+    text-align: center;
+    font-size: 1.8rem;
+  }
 }
 
 .restaurant article {
@@ -345,6 +391,19 @@ button:hover {
   height: 30px;
 }
 
+@media screen and (min-width: 1024px) {
+  .restaurant__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 20%;
+  }
+}
+
 footer {
   background-color: #353535;
   color: white;
@@ -356,12 +415,29 @@ footer .footer__logo {
   font-size: 1.2rem;
 }
 
+@media screen and (min-width: 1024px) {
+  footer .footer__logo {
+    text-align: center;
+    font-size: 1.5rem;
+  }
+}
+
 footer .footer__list a {
   color: white;
 }
 
 footer .footer__list ul {
   padding: 20px 0 30px 20px;
+}
+
+@media screen and (min-width: 1024px) {
+  footer .footer__list ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
 }
 
 footer .footer__list ul li {

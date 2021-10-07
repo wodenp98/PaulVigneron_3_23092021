@@ -6,8 +6,15 @@
     padding: 20px 0 0 20px;
     font-weight: bold;
     font-size: 1.3rem;
+    @media screen and (min-width: 1024px) {
+      text-align: center;
+      padding: 20px 0 5px 0;
+      font-size: 1.5rem;
+    }
   }
   &__list__option {
+    display: flex;
+    align-items: center;
     border-radius: 20px;
     margin: 20px;
     padding: 30px;
@@ -37,5 +44,19 @@
   .icone {
     color: grey;
     padding: 0 25px 0 15px;
+  }
+
+  @media screen and (min-width: 1024px) {
+    &__list {
+      display: flex;
+      justify-content: space-around;
+      &__option {
+        width: 30%;
+      }
+      &__number {
+        position: static;
+        transform: translate(-40px);
+      }
+    }
   }
 }

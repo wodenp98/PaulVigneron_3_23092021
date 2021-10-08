@@ -42,33 +42,40 @@
 
 .menu__card__part {
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
-  align-items: center;
   border-radius: 20px;
   background-color: $color-bgfnt;
   width: 95%;
   height: 70px;
   margin-bottom: 15px;
   margin-left: 10px;
+  overflow: hidden;
   @include shadow;
   @media screen and (min-width: 1024px) {
     width: 30%;
   }
   &__dishes {
-    // Ancitiper le fait que la phrase de reviendra pas a la ligne et les 3 petits points + checkbox
+    white-space: nowrap;
+    overflow: hidden;
     h4 {
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      overflow: hidden;
       font-size: 1.1rem;
       padding: 15px 0 5px 15px;
       font-weight: bold;
     }
     p {
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      overflow: hidden;
       padding: 5px 0 10px 15px;
       font-size: 0.9rem;
     }
   }
 
   &__price {
+    align-self: flex-end;
     width: 64px;
     font-weight: bold;
     padding: 40px 0 0 15px;
@@ -82,7 +89,7 @@
     background-color: #99e3d0;
     border-radius: 0 20px 20px 0;
     height: 100%;
-    width: 60px;
+    width: 0;
   }
 }
 

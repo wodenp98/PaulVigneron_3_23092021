@@ -517,13 +517,20 @@ footer .footer__list ul i {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  position: relative;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   border-radius: 20px;
   background-color: white;
   width: 95%;
+  height: 70px;
   margin-bottom: 15px;
   margin-left: 10px;
   -webkit-box-shadow: 5px 5px 10px #d4d4d4;
@@ -536,28 +543,38 @@ footer .footer__list ul i {
   }
 }
 
-.menu__card__part__dishes__name {
+.menu__card__part__dishes h4 {
   font-size: 1.1rem;
   padding: 15px 0 5px 15px;
   font-weight: bold;
 }
 
-.menu__card__part__dishes__details {
+.menu__card__part__dishes p {
   padding: 5px 0 10px 15px;
   font-size: 0.9rem;
 }
 
-.menu__card__part__more {
+.menu__card__part__price {
+  width: 64px;
+  font-weight: bold;
+  padding: 40px 0 0 15px;
+}
+
+.menu__card__part__checkbox {
+  color: white;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  position: absolute;
-  top: 40px;
-  right: 10px;
-}
-
-.menu__card__part__more__price {
-  font-weight: bold;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #99e3d0;
+  border-radius: 0 20px 20px 0;
+  height: 100%;
+  width: 60px;
 }
 
 .menu__card__btn {

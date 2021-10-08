@@ -42,11 +42,13 @@
 
 .menu__card__part {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
-  position: relative;
+  align-items: center;
   border-radius: 20px;
   background-color: $color-bgfnt;
   width: 95%;
+  height: 70px;
   margin-bottom: 15px;
   margin-left: 10px;
   @include shadow;
@@ -55,25 +57,32 @@
   }
   &__dishes {
     // Ancitiper le fait que la phrase de reviendra pas a la ligne et les 3 petits points + checkbox
-    &__name {
+    h4 {
       font-size: 1.1rem;
       padding: 15px 0 5px 15px;
       font-weight: bold;
     }
-    &__details {
+    p {
       padding: 5px 0 10px 15px;
       font-size: 0.9rem;
     }
   }
 
-  &__more {
+  &__price {
+    width: 64px;
+    font-weight: bold;
+    padding: 40px 0 0 15px;
+  }
+
+  &__checkbox {
+    color: $color-bgfnt;
     display: flex;
-    position: absolute;
-    top: 40px;
-    right: 10px;
-    &__price {
-      font-weight: bold;
-    }
+    justify-content: center;
+    align-items: center;
+    background-color: #99e3d0;
+    border-radius: 0 20px 20px 0;
+    height: 100%;
+    width: 60px;
   }
 }
 

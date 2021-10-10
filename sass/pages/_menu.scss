@@ -42,7 +42,7 @@
   display: flex;
   justify-content: space-between;
   border-radius: 20px;
-  background-color: white;
+  background-color: $color-bgfnt;
   width: 95%;
   margin-bottom: 15px;
   @include shadow;
@@ -50,7 +50,7 @@
   overflow: hidden;
   animation: apparition-menu 2000ms backwards;
   @media screen and (min-width: 1024px) {
-    width: 29%;
+    width: 24%;
   }
   &__dishes {
     white-space: nowrap;
@@ -80,7 +80,7 @@
     margin-right: 20px;
   }
   &__checkbox {
-    color: white;
+    color: $color-bgfnt;
     background-color: $color-tertiary;
     font-size: 1.3em;
     display: flex;

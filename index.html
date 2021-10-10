@@ -13,7 +13,6 @@
 
    <body>
       
-
       <header>
         <img src="./images/logo/ohmyfood@2x.svg" class="header__logo" alt="logo">
       </header>
@@ -24,8 +23,9 @@
 
                <form action="#" method="POST">
                  <i class="fas fa-map-marker-alt"></i>
-                 <input type="search" class="localisation__form" name="city" value="Paris, Belleville">
+                 <input type="search" class="localisation__formulaire" name="ville" value="Paris, Belleville">
                </form>
+
             </div>
 
             <div class="presentation">
@@ -38,28 +38,22 @@
                 <h2>Fonctionnement</h2>
 
                   <div class="operation__list">
-                     <div class="operation__list__option">
-                        <div class="operation__list__number">1</div>
-                        <a href="#">
-                           <i class=" icone fas fa-mobile-alt"></i>
-                           <p>Choisissez un restaurant</p>
-                        </a>
+                     <div class="operation__option">
+                        <div class="operation__number">1</div> 
+                        <i class=" icone fas fa-mobile-alt"></i>
+                        <p>Choisissez un restaurant</p>
+                     </div>
+ 
+                     <div class="operation__option">
+                        <div class="operation__number">2</div>
+                        <i class=" icone fas fa-list-ul"></i>
+                        <p>Composez votre menu</p>
                      </div>
 
-                     <div class="operation__list__option">
-                        <div class="operation__list__number">2</div>
-                        <a href="#">
-                           <i class=" icone fas fa-list-ul"></i>
-                           <p>Composez votre menu</p>
-                        </a>
-                     </div>
-
-                     <div class="operation__list__option">
-                        <div class="operation__list__number">3</div>
-                        <a href="#">
-                           <i class=" icone fas fa-store"></i>
-                           <p>Dégustez au restaurant</p>
-                        </a>
+                     <div class="operation__option">
+                        <div class="operation__number">3</div>
+                        <i class=" icone fas fa-store"></i>
+                        <p>Dégustez au restaurant</p>
                      </div>
                   </div>
             </div> 
@@ -67,8 +61,7 @@
 
          <section class="restaurant">
             <h2 class="restaurant__h2">Restaurants</h2>
-
-              <article class="restaurant__list">
+              <article>
                   <a href="la-palette-du-gout.html"> 
                     <img src="./images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg" alt="la palette du gout">  
                      <div class="restaurant__list__title">
@@ -79,14 +72,14 @@
                         <p>Nouveau</p>
                      </div>
                      <div class="restaurant__list__heart">
-                        <i class="empty-heart far fa-heart"></i>
+                        <i class="far fa-heart"></i>
                      </div>
                   </a>
                </article>
 
-               <article class="restaurant__list">
+               <article>
                   <a href="la-note-enchantee.html"> 
-                    <img src="./images/restaurants/stil-u2Lp8tXIcjw-unsplashpaysage.jpg" alt="la note enchantee">
+                    <img src="./images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg" alt="la note enchantee">
                      <div class="restaurant__list__title"> 
                        <h4>La note enchantée</h4>
                        <p>Charonne</p>
@@ -95,12 +88,12 @@
                         <p>Nouveau</p>
                      </div>
                      <div class="restaurant__list__heart">
-                        <i class="empty-heart far fa-heart"></i>
+                        <i class="far fa-heart"></i>
                      </div>
                   </a>
                </article>
 
-               <article class="restaurant__list">
+               <article>
                   <a href="a-la-francaise.html">
                     <img src="./images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg" alt="a la francaise">
                      <div class="restaurant__list__title"> 
@@ -108,12 +101,12 @@
                       <p>Cité Rouge</p>
                      </div>
                      <div class="restaurant__list__heart">
-                        <i class="empty-heart far fa-heart"></i>
+                        <i class="far fa-heart"></i>
                      </div>
                   </a>
                </article>
-               
-               <article class="restaurant__list">
+
+               <article>
                   <a href="le-delice-des-sens.html">
                     <img src="./images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg" alt="le delice des sens">
                      <div class="restaurant__list__title">
@@ -121,7 +114,8 @@
                       <p>Folie-Méricourt</p>
                      </div>
                      <div class="restaurant__list__heart">
-                        <i class="empty-heart far fa-heart"></i>
+                        <i class="far fa-heart"></i>
+  
                      </div>
                   </a>
                </article>
@@ -129,15 +123,17 @@
       </main>
 
       <footer>
+
           <div class="footer__logo">
            <h3>ohmyfood</h3>
           </div>
+          
           <div class="footer__list">
              <ul>
                 <li><a href="#"><i class="fas fa-utensils"></i>Proposer un restaurant</a></li>
                 <li><a href="#"><i class="fas fa-hands-helping"></i>Devenir partenaire</a></li>
                 <li><a href='#'>Mentions légales</a></li>
-                <li><a href="mailto:ohmyfood@gmail.com">Contact</a></li>
+                <li><a href="mailto:supportohmyfood@gmail.com">Contact</a></li>
              </ul>
           </div>
       </footer>

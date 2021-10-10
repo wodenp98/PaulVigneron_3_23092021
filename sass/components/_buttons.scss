@@ -1,12 +1,15 @@
 button {
   border-radius: 30px;
-  padding: 15px;
+  padding: 17px;
   border: none;
   background: linear-gradient($color-secondary, $color-primary);
-  color: $color-bgfnt;
+  color: white;
   font-weight: bold;
+  font-size: 0.9rem;
   @include shadow;
+  transition: opacity 250ms;
   &:hover {
+    box-shadow: 5px 5px 10px #8f8d8d;
     opacity: 0.8;
   }
 }

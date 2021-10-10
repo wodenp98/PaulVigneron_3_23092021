@@ -1,1 +1,54 @@
-
+.operation {
+  padding-bottom: 20px;
+  position: relative;
+  h2 {
+    padding: 20px 0 5px 20px;
+    @media screen and (min-width: 1024px) {
+      text-align: center;
+      padding: 20px 0 5px 0;
+    }
+  }
+  &__option {
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 10px;
+    background-color: $color-container;
+    font-weight: bold;
+    @include shadow;
+    &:hover {
+      background-color: #f5edff;
+    }
+    &:hover .icone {
+      color: $color-primary;
+    }
+  }
+  &__number {
+    color: white;
+    background-color: $color-primary;
+    border-radius: 50%;
+    position: absolute;
+    left: 10px;
+    font-size: 0.8rem;
+    padding: 5px 8px 5px 8px;
+  }
+  .icone {
+    color: grey;
+    padding: 0 25px 0 15px;
+    margin-left: 20px;
+  }
+  @media screen and (min-width: 1024px) {
+    &__list {
+      display: flex;
+      justify-content: space-around;
+    }
+    &__option {
+      width: 30%;
+    }
+    &__number {
+      position: static;
+      margin: -20px;
+    }
+  }
+}

@@ -34,9 +34,24 @@
 
 // heart
 
-.fa-heart:hover {
+.restaurant__list__heart:hover .full-heart {
+  transform: scale(1);
+}
+
+.restaurant__list__heart:hover .empty-heart {
   background: linear-gradient($color-primary, $color-secondary);
-  color: transparent;
   -webkit-background-clip: text;
-  animation: 1s ease-in-out;
+  color: transparent;
+}
+
+// menu coeur
+
+.menu__heart:hover .full-heart {
+  transform: scale(1);
+}
+
+.menu__heart:hover .empty-heart {
+  background: linear-gradient($color-primary, $color-secondary);
+  -webkit-background-clip: text;
+  color: transparent;
 }

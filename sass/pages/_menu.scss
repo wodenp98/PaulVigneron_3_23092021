@@ -36,6 +36,21 @@
   position: absolute;
   top: 8px;
   right: 40px;
+  @media screen and (min-width: 1024px) {
+    right: 26%;
+  }
+
+  .full-heart {
+    position: relative;
+    right: 1.86rem;
+    background: linear-gradient($color-primary, $color-secondary);
+    -webkit-background-clip: text;
+    color: transparent;
+    transform-origin: bottom;
+    transform: scale(0);
+    transition: 0.3s ease-in-out;
+    z-index: 1;
+  }
 }
 
 .menu__choice {

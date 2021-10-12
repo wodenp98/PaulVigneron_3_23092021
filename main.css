@@ -66,13 +66,28 @@ ul a {
           animation: delay 3s ease-in-out;
 }
 
-.fa-heart:hover {
+.restaurant__list__heart:hover .full-heart {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+.restaurant__list__heart:hover .empty-heart {
   background: -webkit-gradient(linear, left top, left bottom, from(#9356dc), to(#ff79da));
   background: linear-gradient(#9356dc, #ff79da);
-  color: transparent;
   -webkit-background-clip: text;
-  -webkit-animation: 1s ease-in-out;
-          animation: 1s ease-in-out;
+  color: transparent;
+}
+
+.menu__heart:hover .full-heart {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+.menu__heart:hover .empty-heart {
+  background: -webkit-gradient(linear, left top, left bottom, from(#9356dc), to(#ff79da));
+  background: linear-gradient(#9356dc, #ff79da);
+  -webkit-background-clip: text;
+  color: transparent;
 }
 
 @-webkit-keyframes spinner {
@@ -426,6 +441,22 @@ button:hover {
   bottom: 20px;
 }
 
+.restaurant__list__heart .full-heart {
+  position: relative;
+  right: 1.9rem;
+  background: -webkit-gradient(linear, left top, left bottom, from(#9356dc), to(#ff79da));
+  background: linear-gradient(#9356dc, #ff79da);
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-transform-origin: bottom;
+          transform-origin: bottom;
+  -webkit-transform: scale(0);
+          transform: scale(0);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  z-index: 1;
+}
+
 footer {
   background-color: #353535;
   color: white;
@@ -515,6 +546,28 @@ footer .fa-hands-helping {
   position: absolute;
   top: 8px;
   right: 40px;
+}
+
+@media screen and (min-width: 1024px) {
+  .menu__heart {
+    right: 26%;
+  }
+}
+
+.menu__heart .full-heart {
+  position: relative;
+  right: 1.86rem;
+  background: -webkit-gradient(linear, left top, left bottom, from(#9356dc), to(#ff79da));
+  background: linear-gradient(#9356dc, #ff79da);
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-transform-origin: bottom;
+          transform-origin: bottom;
+  -webkit-transform: scale(0);
+          transform: scale(0);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  z-index: 1;
 }
 
 .menu__choice {

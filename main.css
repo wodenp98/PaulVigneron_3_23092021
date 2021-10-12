@@ -146,8 +146,8 @@ ul a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-animation: loader__end 0.5s ease forwards 4s;
-          animation: loader__end 0.5s ease forwards 4s;
+  -webkit-animation: loader__end 0.5s ease forwards 3s;
+          animation: loader__end 0.5s ease forwards 3s;
 }
 
 .loader__spinner {
@@ -157,8 +157,8 @@ ul a {
           animation-duration: 600ms;
   border: 20px solid white;
   border-radius: 50%;
-  -webkit-animation: spinner 4s linear infinite;
-          animation: spinner 4s linear infinite;
+  -webkit-animation: spinner 3s linear infinite;
+          animation: spinner 3s linear infinite;
 }
 
 header {
@@ -189,7 +189,7 @@ header .header__logo {
 
 header .fa-arrow-left {
   position: absolute;
-  top: 3.5%;
+  top: 3%;
   left: 5%;
   font-size: 1.2rem;
 }
@@ -197,6 +197,7 @@ header .fa-arrow-left {
 @media screen and (min-width: 1024px) {
   header .fa-arrow-left {
     font-size: 1.8rem;
+    top: 4.5%;
   }
 }
 
@@ -504,7 +505,7 @@ footer .fa-hands-helping {
 
 .menu .border {
   background-color: #99e2d0;
-  width: 50px;
+  width: 45px;
   height: 0.2rem;
   margin-bottom: 20px;
 }

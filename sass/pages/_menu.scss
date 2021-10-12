@@ -48,7 +48,6 @@
   @include shadow;
   font-size: 0.9rem;
   overflow: hidden;
-  animation: apparition-menu 2000ms backwards;
   @media screen and (min-width: 1024px) {
     width: 24%;
   }
@@ -89,7 +88,6 @@
     border-radius: 0 20px 20px 0;
     width: 0;
     height: 100%;
-    transition-duration: 400ms;
   }
 }
 

@@ -1,0 +1,42 @@
+// checkbox apparition sur le côté
+
+.menu__choice:hover .menu__choice__more__checkbox {
+  width: 70px;
+  transition-duration: 700ms;
+}
+
+.menu__choice:hover i {
+  transform: rotate(360deg);
+  transition-duration: 500ms;
+}
+
+// delai d'appartion
+@keyframes delay {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.first {
+  animation: delay 1s ease-in-out;
+}
+
+.second {
+  animation: delay 2s ease-in-out;
+}
+
+.third {
+  animation: delay 3s ease-in-out;
+}
+
+// heart
+
+.fa-heart:hover {
+  background: linear-gradient($color-primary, $color-secondary);
+  color: transparent;
+  -webkit-background-clip: text;
+  animation: 1s ease-in-out;
+}

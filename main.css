@@ -448,8 +448,6 @@ button:hover {
   background: linear-gradient(#9356dc, #ff79da);
   -webkit-background-clip: text;
   color: transparent;
-  -webkit-transform-origin: bottom;
-          transform-origin: bottom;
   -webkit-transform: scale(0);
           transform: scale(0);
   -webkit-transition: 0.3s ease-in-out;
@@ -561,8 +559,6 @@ footer .fa-hands-helping {
   background: linear-gradient(#9356dc, #ff79da);
   -webkit-background-clip: text;
   color: transparent;
-  -webkit-transform-origin: bottom;
-          transform-origin: bottom;
   -webkit-transform: scale(0);
           transform: scale(0);
   -webkit-transition: 0.3s ease-in-out;

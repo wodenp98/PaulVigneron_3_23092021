@@ -3,7 +3,7 @@ button {
   padding: 17px;
   border: none;
   background: linear-gradient($color-secondary, $color-primary);
-  color: white;
+  color: $color_bgfnt;
   font-weight: bold;
   font-size: 0.9rem;
   @include shadow;

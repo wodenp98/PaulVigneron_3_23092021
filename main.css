@@ -22,15 +22,15 @@ ul a {
 
 .menu__choice:hover .menu__choice__more__checkbox {
   width: 70px;
-  -webkit-transition-duration: 700ms;
-          transition-duration: 700ms;
+  -webkit-transition-duration: 1200ms;
+          transition-duration: 1200ms;
 }
 
 .menu__choice:hover i {
   -webkit-transform: rotate(360deg);
           transform: rotate(360deg);
-  -webkit-transition-duration: 500ms;
-          transition-duration: 500ms;
+  -webkit-transition-duration: 800ms;
+          transition-duration: 800ms;
 }
 
 @-webkit-keyframes delay {
@@ -543,7 +543,7 @@ footer .fa-hands-helping {
   font-size: 1.5rem;
   position: absolute;
   top: 8px;
-  right: 40px;
+  right: 10px;
 }
 
 @media screen and (min-width: 1024px) {

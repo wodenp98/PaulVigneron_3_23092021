@@ -543,7 +543,7 @@ footer .fa-hands-helping {
   font-size: 1.5rem;
   position: absolute;
   top: 8px;
-  right: 0;
+  right: 1px;
 }
 
 @media screen and (min-width: 1024px) {

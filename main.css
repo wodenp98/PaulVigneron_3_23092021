@@ -501,7 +501,7 @@ footer .fa-hands-helping {
 
 .menu__img {
   width: 100%;
-  max-height: 600px;
+  max-height: 300px;
   -o-object-fit: cover;
      object-fit: cover;
 }

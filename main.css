@@ -504,6 +504,8 @@ footer .fa-hands-helping {
   max-height: 300px;
   -o-object-fit: cover;
      object-fit: cover;
+  -o-object-position: 100% 70%;
+     object-position: 100% 70%;
 }
 
 @media screen and (min-width: 1024px) {

@@ -3,6 +3,9 @@
   max-height: 300px;
   object-fit: cover;
   object-position: 100% 70%;
+  &__position {
+    object-position: 100% 55%;
+  }
   @media screen and (min-width: 1024px) {
     max-height: 450px;
   }

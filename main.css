@@ -508,6 +508,11 @@ footer .fa-hands-helping {
      object-position: 100% 70%;
 }
 
+.menu__img__position {
+  -o-object-position: 100% 55%;
+     object-position: 100% 55%;
+}
+
 @media screen and (min-width: 1024px) {
   .menu__img {
     max-height: 450px;

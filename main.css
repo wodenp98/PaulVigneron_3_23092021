@@ -504,13 +504,8 @@ footer .fa-hands-helping {
   max-height: 300px;
   -o-object-fit: cover;
      object-fit: cover;
-  -o-object-position: 100% 70%;
-     object-position: 100% 70%;
-}
-
-.menu__img__position {
-  -o-object-position: 100% 55%;
-     object-position: 100% 55%;
+  -o-object-position: 100% 60%;
+     object-position: 100% 60%;
 }
 
 @media screen and (min-width: 1024px) {
